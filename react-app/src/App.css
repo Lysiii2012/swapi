@@ -1,0 +1,42 @@
+.App {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+.top-form{
+  display: flex;
+}
+.top-form input{
+  display: block;
+  width: 100%;
+}
+.top-form button{
+  display: block;
+  width: 100px;
+  min-width: 100px;
+}
+.top-form>label{
+  background: #999;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  display: block;
+  padding:16px 10px;
+}
+.form-text{
+  display: block;
+  width: 100%;
+  height: 70vh;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.top-form button{
+  background: #777;
+  border: none;
+}
+.top-form button:disabled{
+  background: #09316dcc;
+  color: #fff;
+}
